@@ -31,3 +31,6 @@ select * from address_book_System
 ---UC5 : Delete person using first name
 DELETE FROM address_book_System WHERE City = 'solapur';
 select * from address_book_System
+
+---UC6 : Ability to retrieve person belonging to a city or state 
+SELECT * FROM address_book_System WHERE City='solapur';
