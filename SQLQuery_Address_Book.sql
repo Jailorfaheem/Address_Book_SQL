@@ -23,3 +23,7 @@ INSERT INTO address_book_System (First_Name,Last_Name,Address,City,State,Zip,Pho
 INSERT INTO address_book_System (First_Name,Last_Name,Address,City,State,Zip,Phone_Number,Email_Id) VALUES ('Vishal','Pandey','mumbra','mumbai','Maharashtra',4136024,2222222222,'pandey@gmail.com');
 INSERT INTO address_book_System (First_Name,Last_Name,Address,City,State,Zip,Phone_Number,Email_Id) VALUES ('bhavin','bhanishali','ahemdabad','ahemdabad','Gujrat',415577,344463,'bhavin@gmail.com');
 INSERT INTO address_book_System (First_Name,Last_Name,Address,City,State,Zip,Phone_Number,Email_Id) VALUES ('Sohail','shaikh','bhaonagar','Gujrat','Gujrat',4132578,42525444,'salman@gmail.com');
+
+--UC4 : Edit existing contact using name
+UPDATE address_book_System SET First_Name = 'Raj' , Last_Name = 'grover', Email_Id = 'rajgrover@gmail.com' where First_Name = 'minku';
+select * from address_book_System
