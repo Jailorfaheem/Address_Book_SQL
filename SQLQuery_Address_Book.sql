@@ -27,3 +27,7 @@ INSERT INTO address_book_System (First_Name,Last_Name,Address,City,State,Zip,Pho
 --UC4 : Edit existing contact using name
 UPDATE address_book_System SET First_Name = 'Raj' , Last_Name = 'grover', Email_Id = 'rajgrover@gmail.com' where First_Name = 'minku';
 select * from address_book_System
+
+---UC5 : Delete person using first name
+DELETE FROM address_book_System WHERE City = 'solapur';
+select * from address_book_System
